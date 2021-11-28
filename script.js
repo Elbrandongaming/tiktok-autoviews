@@ -8,13 +8,13 @@
 // @include      https://lputorrents.xyz/*
 // @match        https://bugsliker.me/index.php?info=Session_Expired
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
-// @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @require      https://gist.github.com/raw/262891/waitForKeyElements.js
 // @grant        GM_addStyle
 // @grant        none
 // ==/UserScript==
 
 if (document.getElementsByClassName("form-control fireliker-style-text-mono text-warning").length > 0) {
-    $('input[placeholder="Username"]').val('YOUR_USERNAME'); //Change YOUR_USERNAME with your username
+    $('input[placeholder="Username"]').val('brandongaming825'); //Change YOUR_USERNAME with your username
     setTimeout(function () {
         lp();
     }, 2000);
